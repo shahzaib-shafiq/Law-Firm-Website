@@ -1,5 +1,9 @@
 import React from 'react';
 import Banner from './components/Banner';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Skills from './components/Skills';
+import Team from './components/Team';
 import Testi from './components/Testi';
 
 // import components
@@ -8,7 +12,11 @@ const App = () => {
   return <div>
 <Banner/>
 <Testi/>
-<div className='h-[2000px]'></div>
+<Skills/>
+<Team/>
+<Contact/>
+<Footer/>
+
   </div>;
 };
 

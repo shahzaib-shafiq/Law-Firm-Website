@@ -1,16 +1,18 @@
-import React from 'react'
-import TestiSlider from './Textislider'
-const Testi = () => {
-  return (
-    <section className=' h-[346px ] lg:mb-[120px]'>
-        <div className="container mx-auto">
-            <div className='w-full mx-auto lg:mx-auto lg:max-w-[570px] '>
-<TestiSlider/>
-            </div>
-        </div>
-      
-    </section>
-  )
-}
+import React from 'react';
 
-export default Testi
+// import components
+import TestimonialSlider from './Textislider';
+
+const Testimonials = () => {
+  return (
+    <section className='h-[346px] lg:mb-[120px]'>
+      <div className='container mx-auto h-full flex items-center justify-end'>
+        <div className='w-full mx-auto lg:mx-0 lg:max-w-[570px]'>
+          <TestimonialSlider />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Testimonials;
