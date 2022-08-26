@@ -77,8 +77,11 @@ const activeLinkHandler=(index)=>{
 {userData.map((user)=>{
   return(
     <Fragment>
-      <img src={user.picture.large} ></img>
+      <img className='mt-6 mb-4' src={user.picture.large} ></img>
+     <div className='absolute mt-35 space-x-4 space-y-6 mb-4'>
+
       <PhraseGenerator user={user}/>
+     </div>
       <div className='absolute mt-40 space-x-4 my-4 mb-4'>
         {icons.map((icon,index)=>{
 
